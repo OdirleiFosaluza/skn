@@ -1,0 +1,70 @@
+/* Default Colors 
+======================================================================================= */
+	h1, h3 { color: #009688; }
+	
+	h2, h4, h5, h6,
+	p, a, ul, li { color: #666; }
+
+	.dark-primary-color    { background: #00796B; }
+	.default-primary-color { background: #009688; }
+	.light-primary-color   { background: #B2DFDB; }
+	.text-primary-color    { color: #FFFFFF; }
+	.accent-color          { background: #FF4081; }
+	.primary-text-color    { color: #212121; }
+	.secondary-text-color  { color: #757575; }
+	.divider-color         { border-color: #BDBDBD; }
+	.bg-default			   { background-color: #EFEFEF; }
+	.bg-light			   { background-color: #FFF; }
+
+	.btn-default { background: #FF4081; color: #fff; text-shadow: 0 1px 0 rgba(0,0,0,0.5); }
+	.btn-default:hover { background: #ef87aa; color: #fff; }
+
+/* Header 
+======================================================================================= */
+	#header { padding: 20px 0; }
+
+	#nav-main { margin: 10px 0; }
+		#nav-main ul.nav.nav-pills { } 
+		#nav-main ul.nav.nav-pills li { } 
+		#nav-main ul.nav.nav-pills li a { color: #B2DFDB; margin: 0 10px; } 
+		#nav-main ul.nav.nav-pills li a:hover { background-color: #FFF; color: #009688; } 
+		#nav-main ul.nav.nav-pills li.active a { background-color: #FF4081; color: #FFF; } 
+		#nav-main ul.nav.nav-pills li.active a:hover { background-color: #ef87aa; } 
+
+
+/* BreadCrumb
+======================================================================================= */
+	#breadcrumb { padding: 0; }
+		#breadcrumb ol { margin-bottom: 0; background-color: transparent; } 
+		#breadcrumb ol li {  }
+		#breadcrumb ol li a { color: #B2DFDB; }
+		#breadcrumb ol li a.active { color: #FFF; }
+
+
+/* Wrapper
+======================================================================================= */
+	#wrapper {  }
+		#wrapper .container { padding: 40px 0; }
+
+		#wrapper .listagem-default {  }
+		#wrapper .listagem-default table { margin-top: 20px; background-color: #fff; }
+		#wrapper .listagem-default table tr.info { color: #009688; }
+		#wrapper .listagem-default table tr.info td { background: #efefef; font-weight: bold; }
+
+
+/* Footer
+======================================================================================= */
+	#footer { border-top: #FF4081 3px solid; }
+		#footer h3 { color: #fff; }
+		#footer p { color: #B2DFDB; text-align: justify; }
+		#footer .container { padding: 40px 0; }
+
+		#footer .container .nav {  }
+		#footer .container .nav li {  }
+		#footer .container .nav li:before {  }
+		#footer .container .nav li a { color: #B2DFDB; }
+		#footer .container .nav li a:hover { color: #FF4081; }
+
+		#footer #assinatura {}
+			#footer #assinatura .container { padding: 10px 0; }
+			#footer #assinatura .container p { margin-bottom: 0; text-align: center;  }
